@@ -159,6 +159,7 @@ h2 {
     background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: auto;
+    padding-top: 40px;
   }
 
   .image-content {
@@ -255,5 +256,22 @@ h2 {
     right: 87px;
     color: white;
     background-image: linear-gradient(to right, #b4d4da, #0d34b3);
+  }
+}
+
+@media screen and (max-width: 369px) {
+  .mobile-content {
+    display: initial;
+  }
+
+  .desktop-content {
+    display: none;
+  }
+
+  .email-input {
+    padding: 10px;
+    width: 190px;
+    border-radius: 20px;
+    border: 2px solid #b4d4da;
   }
 }
