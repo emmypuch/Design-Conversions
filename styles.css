@@ -1,0 +1,259 @@
+.mobile-content {
+  display: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+    "image-content"
+    "main-content"
+    "contents"
+    "content-logo"
+    "content-numbers"
+    "content-button"
+    "sub-btn";
+  box-shadow: 0 5px 10px 0 #a8ccec;
+  width: 59vw;
+  height: 60vh;
+  margin: auto;
+  margin-top: 5%;
+  background-color: #fff;
+}
+
+.image-content {
+  display: grid;
+  grid-area: "image-content";
+  justify-content: center;
+  align-content: center;
+}
+
+img {
+  margin-top: 30px;
+}
+
+.main-content {
+  display: inherit;
+  grid-area: "main-content";
+}
+
+.contents {
+  display: inherit;
+  grid-area: "contents";
+}
+
+.content-logo {
+  display: inherit;
+  grid-area: "content-logo";
+  justify-content: center;
+  margin-top: 55px;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: "Bree Serif", serif;
+  text-transform: uppercase;
+  background: linear-gradient(to left, #b4d4da, #49a0eb, #0d34b3);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0;
+  margin-right: 30px;
+}
+
+h2 {
+  justify-content: center;
+  display: inherit;
+  font-size: 20px;
+  font-family: "Bree Serif", serif;
+  margin-bottom: 10px;
+  margin-top: 0;
+  color: #f34178;
+  margin-right: 70px;
+}
+
+.content-numbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.content1 {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-left: 45px;
+  font-size: 14px;
+  font-family: "Bree Serif", serif;
+  color: #425c9d;
+}
+
+.content-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+  margin-left: 60px;
+}
+
+.email-input {
+  padding: 10px;
+  width: 210px;
+  border-radius: 20px;
+  border: 1px solid #b4d4da;
+}
+
+:placeholder-shown {
+  color: #425c9d;
+  font-size: 12px;
+  font-family: "Bree Serif", serif;
+}
+
+.submit-button {
+  padding: 8px;
+  border: none;
+  position: relative;
+  border-radius: 20px;
+  right: 87px;
+  color: white;
+  font-family: "Bree Serif", serif;
+  background-image: linear-gradient(to right, #b4d4da, #0d34b3);
+}
+
+/* Mobile View */
+@media screen and (max-width: 425px) {
+  @import url("https://fonts.googleapis.com/css?family=Patua+One&display=swap");
+
+  * {
+    font-family: "Patua One", cursive;
+  }
+
+  .mobile-content {
+    display: initial;
+  }
+
+  .desktop-content {
+    display: none;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .content-logo {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #b4d4da, #49a0eb, #0d34b3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: auto;
+  }
+
+  .image-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    /* margin: auto; */
+    width: 70%;
+    height: 270px;
+  }
+
+  h2 {
+    display: grid;
+    margin: auto;
+    color: #f34178;
+    font-size: 12pt;
+  }
+
+  .content-numbers {
+    display: inline-block;
+    text-align: center;
+    margin-left: 75px;
+  }
+
+  .content1 {
+    color: #425c9d;
+  }
+
+  .content-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    margin-left: 60px;
+  }
+
+  .email-input {
+    padding: 10px;
+    width: 210px;
+    border-radius: 20px;
+    border: 2px solid #b4d4da;
+  }
+
+  :placeholder-shown {
+    color: #425c9d;
+    font-size: 12px;
+  }
+
+  .submit-button {
+    padding: 8px;
+    border: none;
+    position: relative;
+    border-radius: 20px;
+    right: 87px;
+    color: white;
+    background-image: linear-gradient(to right, #b4d4da, #0d34b3);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  @import url("https://fonts.googleapis.com/css?family=Patua+One&display=swap");
+
+  * {
+    font-family: "Patua One", cursive;
+  }
+
+  .mobile-content {
+    display: initial;
+  }
+
+  .desktop-content {
+    display: none;
+  }
+
+  .email-input {
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+    border: 2px solid #b4d4da;
+  }
+
+  :placeholder-shown {
+    color: #425c9d;
+    font-size: 12px;
+  }
+
+  .submit-button {
+    padding: 8px;
+    border: none;
+    position: relative;
+    border-radius: 20px;
+    right: 87px;
+    color: white;
+    background-image: linear-gradient(to right, #b4d4da, #0d34b3);
+  }
+}
