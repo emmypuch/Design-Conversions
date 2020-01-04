@@ -1,92 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Patua+One&display=swap");
+
 * {
-  font-family: "Dosis", sans-serif;
+  font-family: "Patua One", cursive;
+}
+.mobile-content {
+  display: none;
 }
 
-html,
+.desktop-content {
+  display: initial;
+}
+
 body {
   margin: 0;
   padding: 0;
 }
 
-.mobile-container {
-  background-color: #fff;
-  width: 100%;
-  margin: 0;
-}
-
-.topnav {
-  overflow: hidden;
-  background-color: #fff;
-  position: relative;
-}
-
-.topnav #myLinks {
-  display: none;
-}
-
-.topnav a {
-  color: #9f041b;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 30px;
-  display: block;
-}
-
-.topnav a.icon {
-  background: white;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-#myLinks a {
-  font-size: 15px;
-  color: #ad2035;
-}
-
-#myLinks a:hover {
-  color: white;
-  background-color: #cf6d7c;
-}
-
-h2 {
-  text-align: center;
-  font-size: 15px;
-  color: #ad2035;
-}
-
-img {
-  display: block;
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+    "interio-side interio-main"
+    "footer footer";
+  grid-template-rows: 1fr auto;
   margin: auto;
-  width: 220px;
-  height: 250px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 5%;
+  width: 57vw;
+  height: 65vh;
+  box-shadow: 0 3px 0 8px #dde7ee;
+}
+
+.interio-side {
+  width: 50vh;
+}
+
+.interio-side-logo h2 {
+  margin-left: 45px;
+  font-size: 30px;
+  color: #387dac;
+  margin-top: 5px;
+}
+
+.interio-side-description h3 {
+  font-size: 20px;
+  margin-top: 45px;
+  margin-left: 20px;
+  color: #ef77ab;
 }
 
 p {
-  text-align: center;
-  font-size: 18px;
-  color: #ad2035;
+  color: #ef77ab;
+  font-size: 12px;
+  margin-left: 20px;
 }
 
-.interio-buttons {
-  display: block;
+.interio-side-buttons {
+  margin-left: 20px;
   margin-top: 30px;
 }
 
 .button1 {
-  padding: 12px;
-  background-color: #9f041b;
+  padding: 13px;
   color: white;
-  font-size: 13px;
+  background-color: #387dac;
   border: none;
-  width: 130px;
+  font-size: 13px;
   border-radius: 8px;
+  width: 140px;
 }
 
 .button2 {
-  border: 1px solid #9f041b;
-  color: #9f041b;
+  border: 1px solid #ef77ab;
+  color: #ef77ab;
   padding: 11px;
   width: 100px;
   background-color: white;
@@ -94,9 +81,156 @@ p {
   border-radius: 8px;
 }
 
+.interio-main-links {
+  display: inline;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 4px;
+  font-size: 14px;
+  color: #387dac;
+}
+
+.interio-main-image {
+  display: block;
+  margin-left: 65px;
+}
+
+.interio-main-image img {
+  width: 340px;
+  height: 250px;
+  margin-top: 26px;
+  border-radius: 5px;
+}
+
 footer {
-  padding: 25px;
-  background-color: #fff;
+  grid-area: footer;
+  margin-top: 15px;
   text-align: center;
-  margin-top: 25px;
+  margin: auto;
+  display: block;
+}
+
+@media (max-width: 425px) {
+  * {
+    font-family: "Dosis", sans-serif;
+  }
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .mobile-content {
+    display: initial;
+  }
+
+  .desktop-content {
+    display: none;
+  }
+
+  .mobile-container {
+    background-color: #fff;
+    width: 100%;
+    margin: 0;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+  }
+
+  .topnav #myLinks {
+    display: none;
+  }
+
+  .topnav a {
+    color: #387dac;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
+  }
+
+  .topnav a.icon {
+    background: white;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  #myLinks a {
+    font-size: 15px;
+    color: #387dac;
+  }
+
+  #myLinks a:hover {
+    color: white;
+    font-size: 18px;
+    background-color: #c1def1;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 15px;
+    color: #387dac;
+  }
+
+  img {
+    display: block;
+    margin: auto;
+    width: 220px;
+    height: 250px;
+  }
+
+  p {
+    text-align: center;
+    font-size: 18px;
+    color: #0e396b;
+  }
+
+  .interio-buttons {
+    display: block;
+    margin-top: 30px;
+  }
+
+  .button1 {
+    padding: 12px;
+    background-color: #ef77ab;
+    color: white;
+    font-size: 13px;
+    border: none;
+    width: 130px;
+    border-radius: 8px;
+  }
+
+  .button2 {
+    border: 1px solid #ef77ab;
+    color: #ef77ab;
+    padding: 11px;
+    width: 100px;
+    background-color: white;
+    font-size: 13px;
+    border-radius: 8px;
+  }
+
+  footer {
+    padding: 25px;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 25px;
+  }
 }
