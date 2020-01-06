@@ -12,7 +12,8 @@ body {
   background-image: linear-gradient(#dcf1c5, #c9eea2, #f8f2d5);
   padding-bottom: 3rem;
   overflow: hidden;
-  /* height: 104vh; */
+  height: 90vh;
+  width: 100vw;
 }
 
 .Monkey-image {
@@ -74,7 +75,8 @@ button {
     background-image: linear-gradient(#dcf1c5, #c9eea2, #f8f2d5);
     padding-bottom: 3rem;
     overflow: hidden;
-    /* height: 104vh; */
+    height: 90vh;
+    width: 100vw;
   }
 
   .Monkey-image {
