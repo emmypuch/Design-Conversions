@@ -10,7 +10,7 @@ body {
 .wrapper {
   background-color: #ace571;
   background-image: linear-gradient(#dcf1c5, #c9eea2, #f8f2d5);
-  height: 90vh;
+  height: 110vh;
 }
 
 .Monkey-image {
@@ -19,8 +19,8 @@ body {
 }
 
 img {
-  width: 250px;
-  height: 280px;
+  width: 150px;
+  height: 250px;
   margin-top: 50px;
 }
 
@@ -71,7 +71,7 @@ button {
   .wrapper {
     background-color: #ace571;
     background-image: linear-gradient(#dcf1c5, #c9eea2, #f8f2d5);
-    height: 90vh;
+    height: 110vh;
   }
 
   .Monkey-image {
@@ -80,8 +80,8 @@ button {
   }
 
   img {
-    width: 250px;
-    height: 280px;
+    width: 150px;
+    height: 250px;
     margin-top: 50px;
   }
 
