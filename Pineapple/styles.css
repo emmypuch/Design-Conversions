@@ -70,7 +70,6 @@ button {
   .wrapper {
     background-color: #ace571;
     background-image: linear-gradient(#dcf1c5, #c9eea2, #f8f2d5);
-    height: 95vh;
   }
 
   .Monkey-image {
@@ -81,7 +80,7 @@ button {
   img {
     width: 300px;
     height: 200px;
-    margin-top: 50px;
+    margin-top: 70px;
   }
 
   h1 {
