@@ -10,7 +10,6 @@ body {
 .wrapper {
   background-color: #ace571;
   background-image: linear-gradient(#dcf1c5, #c9eea2, #f8f2d5);
-  height: 95vh;
 }
 
 .Monkey-image {
@@ -19,9 +18,9 @@ body {
 }
 
 img {
-  width: 300px;
-  height: 200px;
-  margin-top: 50px;
+  width: 250px;
+  height: 400px;
+  margin-top: 70px;
 }
 
 h1 {
@@ -29,7 +28,8 @@ h1 {
   justify-content: center;
   font-size: 30px;
   color: #50312a;
-  margin-top: 35px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 p {
@@ -37,7 +37,7 @@ p {
   justify-content: center;
   color: #a39767;
   font-size: 19px;
-  margin-top: 30px;
+  margin-top: 35px;
 }
 
 .monkey-button {
@@ -47,7 +47,7 @@ p {
 }
 
 button {
-  margin-top: 35px;
+  margin-top: 40px;
   padding: 10px;
   border-radius: 15px;
   width: 180px;
@@ -78,7 +78,7 @@ button {
   }
 
   img {
-    width: 200px;
+    width: 250px;
     height: 400px;
     margin-top: 70px;
   }
