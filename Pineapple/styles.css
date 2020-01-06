@@ -13,7 +13,7 @@ body {
   height: 95vh;
 }
 
-.monkey-image {
+.Monkey-image {
   display: flex;
   justify-content: center;
 }
@@ -36,7 +36,7 @@ p {
   display: flex;
   justify-content: center;
   color: #a39767;
-  font-size: 18px;
+  font-size: 19px;
   margin-top: 30px;
 }
 
@@ -54,5 +54,5 @@ button {
   border: none;
   background-color: #c1e797;
   color: rgb(30, 131, 30);
-  font-size: 15px;
+  font-size: 18px;
 }
