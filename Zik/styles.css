@@ -34,7 +34,7 @@
 }
 
 img {
-  max-width: 100%;
+  max-width: 80%;
   display: block;
 }
 /* =========================
@@ -178,7 +178,7 @@ a:focus {
   }
 
   img {
-    max-width: 110%;
+    max-width: 80%;
     display: block;
   }
   /* =========================
