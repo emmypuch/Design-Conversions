@@ -1,6 +1,6 @@
 body {
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -23,7 +23,7 @@ h1 {
   margin-left: 15%;
   color: #fff;
   font-size: 35px;
-  text-shadow: 2px 4px 0 #2bb2e1;
+  text-shadow: 2px 4px 0 #0f1758;
   font-family: "Stoke", serif;
 }
 
