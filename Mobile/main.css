@@ -1,10 +1,11 @@
 body {
   margin: 0;
   padding: 0;
+  max-width: 100vh;
+  overflow: hidden;
 }
 
 .wrapper {
-  /* position: fixed; */
   background: black;
   max-width: 100%;
   height: 105vh;
@@ -23,7 +24,7 @@ body {
 }
 
 img {
-  margin-top: 28%;
+  margin-top: 20%;
   width: 100%;
   height: 400%;
 }
@@ -31,7 +32,7 @@ img {
 h1 {
   text-align: center;
   color: white;
-  margin-top: 10px;
+  margin-top: 5px;
   font-size: 20pt;
   font-family: "Fredericka the Great", cursive;
 }
@@ -39,7 +40,7 @@ h1 {
 h2 {
   text-align: center;
   color: white;
-  margin-top: 40px;
+  margin-top: 20px;
   font-size: 20pt;
   font-family: "Fredericka the Great", cursive;
 }
@@ -49,11 +50,11 @@ h3 {
   font-size: 25pt;
   text-align: center;
   font-family: "Fredericka the Great", cursive;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 span {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 footer {
@@ -69,5 +70,6 @@ footer {
   -webkit-text-fill-color: transparent;
   font-size: 20pt;
   font-family: "Niconne", cursive;
-  margin-top: 45%;
+  position: relative;
+  top: 75px;
 }
