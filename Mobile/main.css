@@ -62,15 +62,10 @@ span {
 footer {
   display: flex;
   justify-content: flex-end;
-  background: linear-gradient(
-    to right,
-    pink,
-    rgb(204, 35, 35),
-    rgb(233, 45, 77)
-  );
+  background: linear-gradient(to right, pink, white);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 20pt;
   font-family: "Niconne", cursive;
-  margin-top: 40%;
+  margin-top: 50%;
 }
