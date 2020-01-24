@@ -70,6 +70,5 @@ footer {
   -webkit-text-fill-color: transparent;
   font-size: 20pt;
   font-family: "Niconne", cursive;
-  position: relative;
-  top: 75px;
+  margin-top: 32%;
 }
