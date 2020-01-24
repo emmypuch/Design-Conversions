@@ -1,17 +1,10 @@
-/* .mobile-content {
-  display: none;
-}
-
-.desktop-content {
-  display: initial;
-} */
-
 body {
   height: 100vh;
   display: flex;
   justify-content: center;
   flex-direction: row;
   padding: 20px;
+  background: paleturquoise;
 }
 
 main {
@@ -26,10 +19,24 @@ main {
 div.c1 {
   grid-area: a;
   width: 100%;
-  background-image: url("background.jpeg");
+  height: 80vh;
+  background-image: url("IMG-20200122-WA0005.jpg");
   background-repeat: no-repeat;
-  background-size: 800px;
+  background-size: contain;
   background-position: cover;
+  animation: pulse 7s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-image: url("background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: contain;
+  }
+  100% {
+    background-color: rgb(185, 60, 60);
+  }
 }
 
 div.c1 h3 {
@@ -85,23 +92,39 @@ div.c1 h4 {
   font-size: 13pt;
   font-family: "Acme", sans-serif;
   color: white;
-  margin-top: 50px;
+  margin-top: 22px;
 }
 
 div.c2 {
-  background-image: url("IMG_20190324_190543.jpg");
+  background-image: url("blue\ \(2\).jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 140%;
 }
 
+div.c2:hover {
+  background-image: url("selfie.jpg");
+  background-repeat: no-repeat;
+  background-size: : cover;
+  width: 140%;
+  background-position: center;
+}
+
 div.c3 {
-  background-image: url("IMG_20190320_085137.jpg");
+  background-image: url("patri.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 140%;
+}
+
+div.c3:hover {
+  background-image: url("sefie.jpg");
+  background-repeat: no-repeat;
+  background-size: : cover;
+  width: 140%;
+  background-position: center;
 }
 
 div.c4 {
@@ -112,22 +135,27 @@ div.c4 {
   width: 140%;
 }
 
+div.c4:hover {
+  background-image: url("work.jpg");
+  background-repeat: no-repeat;
+  background-size: : cover;
+  width: 140%;
+  background-position: center;
+}
+
 div.c5 {
-  background-image: url("IMG-20200114-WA0034.jpg");
+  background-image: url("blue\ \(1\).jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 140%;
+  margin-right: 5px;
 }
 
-@media and screen (max-width: 1024px) {
-  div.c1 {
-    height: 100%;
-    grid-area: a;
-    width: 100%;
-    background-image: url("background.jpeg");
-    background-repeat: no-repeat;
-    background-size: 800px;
-    background-position: cover;
-  }
+div.c5:hover {
+  background-image: url("IMG_20190320_085137.jpg");
+  background-repeat: no-repeat;
+  background-size: : cover;
+  width: 140%;
+  background-position: center;
 }
