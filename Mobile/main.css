@@ -56,7 +56,7 @@ span {
   margin-top: 40px;
 }
 
-p {
+footer {
   display: flex;
   justify-content: flex-end;
   background: linear-gradient(
@@ -69,7 +69,7 @@ p {
   -webkit-text-fill-color: transparent;
   font-size: 20pt;
   font-family: "Niconne", cursive;
-  margin-top: 30%;
+  margin-top: 40%;
 }
 
 /* @media and screen(max-width: 425px) {
