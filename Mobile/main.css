@@ -9,14 +9,16 @@ body {
   background: black;
   max-width: 100%;
   height: 105vh;
-  transition: background-image 1s ease-in-out;
+  animation: pulse 5s infinite;
 }
 
-.wrapper:hover {
-  background-image: url("IMG-20200122-WA0005.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: contain;
+@keyframes pulse {
+  0% {
+    background-color: #001f3f;
+  }
+  100% {
+    background-color: rgb(233, 45, 77);
+  }
 }
 
 .body {
