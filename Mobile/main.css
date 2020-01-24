@@ -9,17 +9,7 @@ body {
   background: black;
   max-width: 100%;
   height: 105vh;
-  /* animation: pulse 6s infinite; */
 }
-/*
-@keyframes pulse {
-  0% {
-    background-color: #001f3f;
-  }
-  100% {
-    background-color: rgb(235, 207, 212);
-  }
-} */
 
 .body {
   height: 20vh;
@@ -29,16 +19,6 @@ img {
   margin-top: 20%;
   width: 100%;
   height: 400%;
-  animation: pulse 6s infinite;
-}
-
-@keyframes pulse {
-  0% {
-    background-color: #001f3f;
-  }
-  100% {
-    background-color: rgb(235, 207, 212);
-  }
 }
 
 h1 {
