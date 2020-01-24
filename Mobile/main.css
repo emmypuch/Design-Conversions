@@ -9,7 +9,7 @@ body {
   background: black;
   max-width: 100%;
   height: 105vh;
-  animation: pulse 5s infinite;
+  animation: pulse 6s infinite;
 }
 
 @keyframes pulse {
