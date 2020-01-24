@@ -1,11 +1,3 @@
-.mobile-content {
-  display: block;
-}
-
-.desktop-content {
-  display: none;
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -78,27 +70,4 @@ footer {
   font-size: 20pt;
   font-family: "Niconne", cursive;
   margin-top: 45%;
-}
-
-@media and screen (min-width: 1024px) and (max-width: 1440px) {
-  html,
-  body {
-    margin: 0;
-    padding: 0;
-  }
-
-  .mobile-content {
-    display: none;
-  }
-
-  .desktop-content {
-    display: block;
-  }
-
-  .wrapper {
-    height: 100vh;
-    max-width: 100%;
-    width: 500vw;
-    background-image: url("IMG-20200122-WA0005.jpg");
-  }
 }
