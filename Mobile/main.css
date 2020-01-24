@@ -57,6 +57,8 @@ span {
 }
 
 p {
+  display: flex;
+  justify-content: flex-end;
   background: linear-gradient(
     to right,
     pink,
@@ -67,11 +69,11 @@ p {
   -webkit-text-fill-color: transparent;
   font-size: 20pt;
   font-family: "Niconne", cursive;
-  margin-left: 15rem;
+  /* margin-left: 15rem; */
   margin-top: 7rem;
 }
 
-@media and screen(max-width: 425px) {
+/* @media and screen(max-width: 425px) {
   p {
     background: linear-gradient(
       to right,
@@ -86,4 +88,4 @@ p {
     margin-left: 10rem;
     margin-top: 8rem;
   }
-}
+} */
