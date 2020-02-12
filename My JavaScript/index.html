@@ -5,10 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="main.css" />
-    <title>Document</title>
-  </head>
+    <title>JavaScript</title>
   <body>
-    <h2 id="mydata"></h2>
-    <script type="text/javascript" src="text.js"></script>
+    <div class="header">
+      <h2>Learning JavaScript with</h2>
+      <p>Brad Traversy</p>
+    </div>
+
+    <div class="container">
+
+    </div>
+    <script>
+      var person = {
+        firstName: 'Karen',
+        lastName: 'Adesuyi',
+        age: 30,
+        children: ['luis', 'brian'];
+        address: {
+          streeet: 'morekete',
+          city: 'lagos',
+          state: 'lagos';
+        },
+        fullName: funtion() {
+          return this.firstName + " "+this.lastName;
+        }
+      }
+
+      console.log(person.fullName());
+    </script>
   </body>
 </html>
