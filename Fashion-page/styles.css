@@ -144,12 +144,12 @@ button {
   font-family: "Capriola", sans-serif;
   border: none;
   outline: navajowhite;
-  background: black;
+  background: rgb(94, 63, 122);
   color: white;
 }
 
 button:hover {
-  background: rgb(94, 63, 122);
+  background: black;
   color: white;
 }
 
