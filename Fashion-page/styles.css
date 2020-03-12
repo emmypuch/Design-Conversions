@@ -1,0 +1,167 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  overflow-y: auto;
+}
+
+.topvav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  padding: 14px 15px;
+  text-decoration: none;
+  font-size: 18pt;
+  font-family: "Capriola", sans-serif;
+  font-style: oblique;
+  font-weight: bolder;
+  color: rgb(221, 191, 250);
+  margin: 15px;
+  background: rgb(54, 52, 52);
+  border-radius: 10px;
+}
+
+.topnav a:hover {
+  color: white;
+  background: rgb(221, 191, 250);
+}
+
+.topnav a.active {
+  background-color: rgb(221, 191, 250);
+  color: white;
+}
+
+/* .overlay-img {
+  display: block;
+}
+
+.overlay-img img {
+  width: 100%;
+  height: 350px;
+} */
+
+.overlay-img {
+  width: 100%;
+  height: 350px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("tshirts.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay-img h1 {
+  font-size: 70pt;
+  color: rgb(221, 191, 250);
+  font-family: "Niconne", cursive;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description h2 {
+  display: inherit;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  font-size: 25pt;
+  font-family: "Capriola", sans-serif;
+  /* color: rgb(54, 52, 52);
+  border-bottom: 2px solid rgb(221, 191, 250);
+  background-color: linear-gradient(red, yellow, blue); */
+  /* max-width: 250px; */
+  padding: 1rem;
+  border-width: 3px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, rgb(210, 170, 248), rgba(0, 0, 0, 0))
+    1 100%;
+}
+
+.box-border-wrap {
+  display: inline-flex;
+  justify-content: space-between;
+  flex-direction: row;
+  max-width: 255px;
+  padding: 1rem;
+  margin-left: 15px;
+  border-radius: 10px;
+}
+
+.box:nth-child(even) {
+  margin-bottom: 0.6rem;
+}
+
+.box {
+  display: inline-flex;
+  margin: 1.5em;
+  background: #222;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px 0px blueviolet;
+}
+
+.box p {
+  color: rgb(221, 191, 250);
+  padding: 2rem;
+  font-size: 14pt;
+  font-family: "Capriola", sans-serif;
+}
+
+.box p:hover {
+  font-size: 15pt;
+  font-family: "Source Code Pro", monospace;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 40px;
+}
+
+button {
+  margin-top: 40px;
+  padding: 15px;
+  border-radius: 10px;
+  width: 350px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 20pt;
+  font-family: "Capriola", sans-serif;
+  border: none;
+  outline: navajowhite;
+  background: black;
+  color: white;
+}
+
+button:hover {
+  background: rgb(94, 63, 122);
+  color: white;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 12px;
+  margin-right: 12px;
+  background-color: black;
+  font-size: 20px;
+  color: rgb(201, 157, 243);
+  padding: 25px;
+  font-family: "Niconne", cursive;
+  /* position: initial; */
+}
