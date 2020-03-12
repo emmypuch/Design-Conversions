@@ -59,7 +59,8 @@ body {
   align-items: center;
 }
 
-.overlay-img h1 {
+.overlay-img a {
+  text-decoration: none;
   font-size: 70pt;
   color: rgb(221, 191, 250);
   font-family: "Niconne", cursive;
