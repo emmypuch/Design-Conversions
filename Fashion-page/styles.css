@@ -133,15 +133,15 @@ ul li {
   align-items: center;
   padding: 1rem;
   border-radius: 10px;
-  overflow-y: auto;
-  width: 70%;
+  /* overflow-y: auto;
+  width: 70%; */
 }
 
 .box:nth-child(even) {
   margin-bottom: 0.6rem;
 }
 
-.box img {
+.swiper-slide img {
   width: 300px;
   height: 230px;
   margin: 1.5em;
