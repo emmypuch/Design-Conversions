@@ -2,26 +2,33 @@ html,
 body {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .wrapper {
-  height: 100vh;
   width: 100vw;
-  overflow-y: auto;
 }
 
 .topvav {
-  overflow: hidden;
+  display: block;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+ul li {
+  display: inline;
 }
 
 .topnav a {
-  float: left;
   padding: 14px 15px;
   text-decoration: none;
   font-size: 18pt;
-  font-family: "Capriola", sans-serif;
+  font-family: "Niconne", cursive;
   font-style: oblique;
-  font-weight: bolder;
   color: rgb(231, 211, 250);
   margin: 15px;
   background: rgb(54, 52, 52);
@@ -38,15 +45,6 @@ body {
   color: white;
 }
 
-/* .overlay-img {
-  display: block;
-}
-
-.overlay-img img {
-  width: 100%;
-  height: 350px;
-} */
-
 .overlay-img {
   width: 100%;
   height: 400px;
@@ -57,6 +55,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
 }
 
 .overlay-img a {
@@ -78,7 +77,7 @@ body {
   align-items: center;
   margin-top: 45px;
   font-size: 25pt;
-  font-family: "Capriola", sans-serif;
+  font-family: "Niconne", cursive;
   padding: 1rem;
   border-width: 3px;
   border-style: solid;
@@ -96,8 +95,8 @@ body {
   display: inline-flex;
   justify-content: space-between;
   flex-direction: column;
-  font-size: 15pt;
-  font-family: "Capriola", sans-serif;
+  font-size: 18pt;
+  font-family: "Niconne", cursive;
   background: -webkit-linear-gradient(rgb(80, 47, 109), #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -115,7 +114,7 @@ body {
   align-items: center;
   margin-top: 40px;
   font-size: 25pt;
-  font-family: "Capriola", sans-serif;
+  font-family: "Niconne", cursive;
   padding: 1rem;
   border-width: 3px;
   border-style: solid;
@@ -123,42 +122,31 @@ body {
     1 100%;
 }
 
+.scroll {
+  display: flex;
+  justify-content: center;
+}
+
 .box-border-wrap {
-  display: inline-flex;
-  justify-content: space-between;
-  flex-direction: row;
-  max-width: 255px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 1rem;
-  margin-left: 15px;
   border-radius: 10px;
+  overflow-y: auto;
+  width: 70%;
 }
 
 .box:nth-child(even) {
   margin-bottom: 0.6rem;
 }
 
-.box {
-  display: inline-flex;
+.box img {
+  width: 300px;
+  height: 230px;
   margin: 1.5em;
-  background: #222;
-  border-radius: 10px;
-  box-shadow: 0px 0px 6px 0px blueviolet;
+  border-radius: 5px;
 }
-
-.box p {
-  color: rgb(221, 191, 250);
-  padding: 2rem;
-  font-size: 14pt;
-  font-family: "Capriola", sans-serif;
-}
-
-/* .box p:hover {
-  font-size: 15pt;
-  font-family: "Source Code Pro", monospace;
-  background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-} */
 
 .btn {
   display: flex;
@@ -175,7 +163,7 @@ button {
   margin: 4px 2px;
   cursor: pointer;
   font-size: 20pt;
-  font-family: "Capriola", sans-serif;
+  font-family: "Niconne", cursive;
   border: none;
   outline: navajowhite;
   background: rgb(94, 63, 122);
@@ -199,7 +187,7 @@ button:hover {
   align-items: center;
   margin-top: 48px;
   font-size: 25pt;
-  font-family: "Capriola", sans-serif;
+  font-family: "Niconne", cursive;
   padding: 1rem;
   border-width: 3px;
   border-style: solid;
@@ -215,7 +203,7 @@ button:hover {
 
 .social {
   text-decoration: none;
-  margin: 30px;
+  margin: 35px;
   color: rgb(94, 63, 122);
 }
 
@@ -223,40 +211,26 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.border-box {
-  width: 60%;
-  height: 350px;
+  width: 100%;
+  height: 360px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("tops-1488463.jpeg");
   background-repeat: no-repeat;
   background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.border-box {
-  font-size: 15pt;
-  color: rgb(221, 191, 250);
-  font-family: "Niconne", cursive;
+  margin-top: 15px;
 }
 
 .border-box p {
-  display: inline-flex;
-  justify-content: space-between;
-  flex-direction: column;
-  font-size: 20pt;
+  font-size: 25pt;
   color: white;
+  font-family: "Niconne", cursive;
 }
 
 :placeholder-shown {
   color: purple;
 }
 
-:::-webkit-input-placeholder {
+::-webkit-input-placeholder {
   color: purple;
 }
 
@@ -268,15 +242,47 @@ button:hover {
   color: purple;
 }
 
+label {
+  color: white;
+  font-size: 18pt;
+  font-family: "Niconne", cursive;
+}
+
+input[type="text"] {
+  font-size: 14pt;
+  font-family: "Niconne", cursive;
+  color: rgb(94, 63, 122);
+  width: 300px;
+  height: 30px;
+}
+
+input[type="email"] {
+  font-size: 14pt;
+  width: 300px;
+  height: 30px;
+  font-family: "Niconne", cursive;
+  color: rgb(94, 63, 122);
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  background: rgb(94, 63, 122);
+  font-size: 16pt;
+  padding: 12px;
+  color: white;
+  width: 95px;
+  font-family: "Niconne", cursive;
+}
+
 footer {
   text-align: center;
   margin-top: 50px;
-  margin-left: 12px;
-  margin-right: 12px;
   background-color: black;
   font-size: 20px;
   color: rgb(201, 157, 243);
   padding: 25px;
   font-family: "Niconne", cursive;
-  /* position: initial; */
+  position: initial;
 }
