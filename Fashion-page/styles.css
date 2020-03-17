@@ -137,12 +137,12 @@ ul li {
   width: 70%; */
 }
 
-.box:nth-child(even) {
+.swiper-slide:nth-child(even) {
   margin-bottom: 0.6rem;
 }
 
 .swiper-slide img {
-  width: 300px;
+  width: 350px;
   height: 230px;
   margin: 1.5em;
   border-radius: 5px;
