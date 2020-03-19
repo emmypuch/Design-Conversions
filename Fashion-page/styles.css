@@ -187,6 +187,7 @@ span {
   justify-content: center;
   align-content: center;
   margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 button {
@@ -245,7 +246,7 @@ button:hover {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 360px;
+  height: 430px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("images/tops-1488463.jpeg");
   background-repeat: no-repeat;
@@ -312,9 +313,9 @@ input[type="submit"] {
 footer {
   text-align: center;
   margin-top: 50px;
-  background-color: black;
-  font-size: 20px;
-  color: rgb(201, 157, 243);
+  background: white;
+  font-size: 23px;
+  color: rgb(94, 63, 122);
   padding: 25px;
   font-family: "Niconne", cursive;
   position: initial;
