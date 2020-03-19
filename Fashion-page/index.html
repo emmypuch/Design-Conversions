@@ -17,13 +17,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
     />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
-    <style>
-      .swiper-container {
-          width: 430px;
-          height: 300px;
-      }
-    </style>
     <title>Fashion</title>
   </head>
   <body>
@@ -32,6 +25,7 @@
         <ul>
           <li><a class="active" href="#home">Home</a></li>
           <li><a data-scroll href="#about">About</a></li>
+          <li><a href="#collection">Collection</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -67,35 +61,84 @@
           quidem odit a expedita doloribus hic ipsam nisi.
         </p>
       </div>
-      <div class="description">
+      <div class="description" id="collection">
         <h2>New Collections</h2>
       </div>
-      <div class="swiper-container">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide"><img src="pix1488467.jpeg" alt="" /></div>
-        <div class="swiper-slide"><img src="bras-1051746.jpeg" alt="" /></div>
-        <div class="swiper-slide"><img src="close-2447035.jpg" alt="" /></div>
-        <div class="swiper-slide"><img src="hats-1078973.jpeg" alt="" /></div>
-        <div class="swiper-slide"><img src="shirts-2872879.jpeg" alt="" /></div>
-        <div class="swiper-slide"><img src="bikini-2994952.jpeg" alt="" /></div>
-        <div class="swiper-slide"><img src="jean-603022.jpeg" alt="" /></div>
-        ...
-    </div>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
-
-    <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-
-    <!-- If we need scrollbar -->
-    <div class="swiper-scrollbar"></div>
-</div>
-      <div class="scroll">
-        <div class="box-border-wrap">
+      <div class="collection-section">
+        <div class="collection-item">
+          <div class="collection-item-image" data-tilt>
+            <img src="images/bikini-2994952.jpeg" alt="">
+          </div>
+          <div class="collection-item-paragraph">
+            <h4>Bikini Pants!</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, voluptates?<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ullam?<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, facilis.</p>
+            <h5>Price: <span>$10</span></h5>
+          </div>
         </div>
+        <div class="collection-item">
+          <div class="collection-item-image" data-tilt>
+            <img src="images/bras-1051746.jpeg" alt="">
+          </div>
+          <div class="collection-item-paragraph">
+            <h4>Bikini Bras!</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, voluptates?<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ullam?<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, facilis.</p>
+            <h5>Price: <span>$5</span></h5>
+          </div>
+        </div>
+        <div class="collection-item">
+          <div class="collection-item-image" data-tilt>
+            <img src="images/close-2447035.jpg" alt="">
+          </div>
+          <div class="collection-item-paragraph">
+            <h4>Polo Shirts!</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, voluptates?<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ullam?<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, facilis.</p>
+            <h5>Price: <span>$8</span></h5>
+          </div>
+        </div>
+        <div class="collection-item">
+          <div class="collection-item-image" data-tilt>
+            <img src="images/hats-1078973.jpeg" alt="">
+          </div>
+          <div class="collection-item-paragraph">
+            <h4>Beach Hat!</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, voluptates?<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ullam?<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, facilis.</p>
+            <h5>Price: <span>$5</span></h5>
+          </div>
+        </div>
+        <div class="collection-item">
+          <div class="collection-item-image" data-tilt>
+            <img src="images/jean-603022.jpeg" alt="">
+          </div>
+          <div class="collection-item-paragraph">
+            <h4>Boyfriend Jean!</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, voluptates?<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ullam?<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, facilis.</p>
+            <h5>Price: <span>$12</span></h5>
+          </div>
+        </div>
+        <div class="collection-item">
+          <div class="collection-item-image" data-tilt>
+            <img src="images/pix1488467.jpeg" alt="">
+          </div>
+          <div class="collection-item-paragraph">
+            <h4>Tops!</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, voluptates?<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ullam?<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, facilis.</p>
+            <h5>Price: <span>$7</span></h5>
+          </div>
+        </div>
+        <div class="collection-item">
+          <div class="collection-item-image" data-tilt>
+            <img src="images/shirts-2872879.jpeg" alt="">
+          </div>
+          <div class="collection-item-paragraph">
+            <h4>Knitted Cardigans!</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, voluptates?<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ullam?<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, facilis.</p>
+            <h5>Price: <span>$20</span></h5>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="scroll">
+        <div class="box-border-wrap"></div>
       </div>
       <div class="btn">
         <button>
@@ -107,17 +150,17 @@
       </div>
       <div class="contactus">
         <a class="social" href="tel:+2349085211106" target="_blank">
-          <i class="fa fa-phone fa-5x"></i>
+          <i class="fa fa-phone fa-4x"></i>
         </a>
         <a
           class="social"
           href="mailto:adesuyiomowunmi@gmail.com"
           target="_blank"
         >
-          <i class="fa fa-envelope fa-5x"></i>
+          <i class="fa fa-envelope fa-4x"></i>
         </a>
         <a class="social" href="https://twitter.com/emmypuch" target="_blank">
-          <i class="fa fa-twitter fa-5x"></i>
+          <i class="fa fa-twitter fa-4x"></i>
         </a>
       </div>
       <div class="border">
@@ -156,33 +199,18 @@
         speed: 1000
       });
     </script>
+
     <script
-      src="//code.tidio.co/peyjdg2v3za6lxlnu6v93odadn8apaq6.js"
-      async
-    ></script>
-    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
-    <script>
-  var mySwiper = new Swiper ('.swiper-container', {
-    // Optional parameters
-    direction: 'horizontal',
-    loop: true,
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
 
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
-
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
-  })
+  <script src="https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js"></script>
+  <script>
+    $('.collection-item-image').tilt({
+      glare: true,
+      maxGlare: .5
+    })
   </script>
   </body>
 </html>
