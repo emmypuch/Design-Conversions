@@ -48,7 +48,7 @@ ul li {
   width: 100%;
   height: 400px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("images/tshirts.jpeg");
+    url("https://res.cloudinary.com/karenify/image/upload/q_70/v1584994447/samples/My-images/hivj7pksywsqu7xdneve.jpg");
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
@@ -248,7 +248,7 @@ button:hover {
   width: 100%;
   height: 430px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("images/tops-1488463.jpeg");
+    url("https://res.cloudinary.com/karenify/image/upload/q_70/v1584994445/samples/My-images/guscygkc5cn9m0duxkxz.jpg");
   background-repeat: no-repeat;
   background-position: center;
   margin-top: 15px;
