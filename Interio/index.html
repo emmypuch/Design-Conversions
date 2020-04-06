@@ -67,8 +67,10 @@
           var x = document.getElementById("myLinks");
           if (x.style.display === "block") {
             x.style.display = "none";
+            document.querySelector('.icon').innerHTML = `<i class="fa fa-bars"></i>`;
           } else {
             x.style.display = "block";
+            document.querySelector('.icon').innerHTML = `<i class="fa fa-close"></i>`;
           }
         }
       </script>
