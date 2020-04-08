@@ -629,3 +629,29 @@ img {
   margin-left: 6px;
 }
 
+.btn2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  width: 280px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 20pt;
+  border: none;
+  outline: navajowhite;
+  background: rgb(94, 63, 122);
+  color: white;
+}
+
+button:hover {
+  background: rgb(90, 52, 122);
+  color: white;
+}
+
