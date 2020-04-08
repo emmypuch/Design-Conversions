@@ -403,6 +403,7 @@ footer {
   justify-content: space-between;
   flex-direction: column;
   font-size: 18pt;
+  padding-left: 14px;
   background: -webkit-linear-gradient(rgb(80, 47, 109), #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
