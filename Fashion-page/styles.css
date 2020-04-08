@@ -169,7 +169,7 @@ ul li {
 
 .collection-item-paragraph h4 {
   font-size: 25pt;
-  color: rgb(94, 63, 122);
+  color: rgb(85, 47, 119);
   font-family: "Niconne", cursive;
 }
 
@@ -177,17 +177,18 @@ ul li {
   background: -webkit-linear-gradient(rgb(80, 47, 109), #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 15pt;
+  font-size: 18pt;
   font-family: "Niconne", cursive;
 }
 
-.collection-item-paragraph h5 {
+/* .collection-item-paragraph h5 {
   font-size: 18pt;
   color: rgb(114, 83, 141);
-}
+} */
 
 span {
   color: rgb(85, 47, 119);
+  font-size: 20pt;
 }
 
 .btn {
@@ -613,19 +614,19 @@ img {
 
 .collection-items-description h3 {
   font-size: 18pt;
-  color: rgb(188, 154, 219);
+  color: rgb(85, 47, 119);
   margin-left: 6px;
 }
 
 .collection-items-description h4 {
-  font-size: 18pt;
-  color: rgb(188, 154, 219);
+  /* font-size: 18pt;
+  color: rgb(188, 154, 219); */
   margin-left: 6px;
 }
 
 .collection-items-description p {
   font-size: 15pt;
-  color: rgb(188, 154, 219);
+  color: rgb(94, 56, 128);
   margin-left: 6px;
 }
 
@@ -653,5 +654,36 @@ button {
 button:hover {
   background: rgb(90, 52, 122);
   color: white;
+}
+
+/* Collection Style Section */
+.collection-section2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.collection-item2-image {
+  max-width: 400px;
+  max-height: 250px;
+  margin: 1.5em;
+}
+
+.collection-item2-image img {
+  border-radius: 5px;
+  width: 100%;
+
+}
+
+footer {
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+  background: white;
+  font-size: 23px;
+  color: rgb(94, 63, 122);
+  padding: 25px;
+  font-family: "Niconne", cursive;
+  position: initial;
 }
 

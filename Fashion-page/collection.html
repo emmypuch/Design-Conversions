@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Capriola|Niconne|Source+Code+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <title>Fashion</title>
+  </head>
+  <body>
+    <div class="mobile-content">
+      <div class="overlay-img2">
+        <a href="https://twitter.com/emmypuch" target="_blank"
+          >avanti_fashion.</a
+        >
+      </div>
+
+      <div class="description" id="collection">
+        <h2>Collections</h2>
+      </div>
+      <div class="collection-section2">
+        <div class="collection-item2">
+          <div class="collection-item2-image">
+            <img
+              src="https://res.cloudinary.com/karenify/image/upload/q_70/v1584994445/samples/My-images/z9gzyf1spkxkhylptadt.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="collection-item2">
+          <div class="collection-item2-image">
+            <img
+              src="https://res.cloudinary.com/karenify/image/upload/q_70/v1584994445/samples/My-images/nerzg9eqacaqul19zkqx.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="collection-item2">
+          <div class="collection-item2-image">
+            <img
+              src="https://res.cloudinary.com/karenify/image/upload/q_70/v1584994449/samples/My-images/bkzyfqas0xwwlsezmoqw.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="collection-item2">
+          <div class="collection-item2-image">
+            <img
+              src="https://res.cloudinary.com/karenify/image/upload/q_70/v1584994445/samples/My-images/u5pmdaumlkyxa7zndoc7.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="collection-item2">
+          <div class="collection-item2-image">
+            <img
+              src="https://res.cloudinary.com/karenify/image/upload/q_70/v1584994446/samples/My-images/bqr9bqcrywoypjgtlgoc.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="collection-item2">
+          <div class="collection-item2-image">
+            <img
+              src="https://res.cloudinary.com/karenify/image/upload/q_70/v1584994447/samples/My-images/rz2jrdhbphblf0vph5qr.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="collection-item2">
+          <div class="collection-item2-image">
+            <img
+              src="https://res.cloudinary.com/karenify/image/upload/q_70/v1584994446/samples/My-images/qjbkiiwaehb968fklqc4.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="collection-item2">
+          <div class="collection-item2-image">
+            <img
+              src="https://res.cloudinary.com/karenify/image/upload/q_70/v1584994445/samples/My-images/guscygkc5cn9m0duxkxz.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <footer>&copy;Karenify❤2020.</footer>
+      <div class="button_container" id="toggle">
+        <span class="top"></span><span class="middle"></span
+        ><span class="bottom"></span>
+      </div>
+
+      <div class="overlay" id="overlay">
+        <nav class="overlay-menu">
+          <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#collection">Collection</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $("#toggle").click(function() {
+        $(this).toggleClass("active");
+        $("#overlay").toggleClass("open");
+      });
+    </script>
+  </body>
+</html>
