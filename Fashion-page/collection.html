@@ -107,6 +107,7 @@
     </div>
 
 
+
     <div class="mobile-content">
       <div class="overlay-img2">
         <a href="https://twitter.com/emmypuch" target="_blank"
@@ -222,6 +223,7 @@
           </div>
         </div>
       </div>
+
       <footer>&copy;Karenify❤2020.</footer>
 
       <div class="button_container" id="toggle">
@@ -241,6 +243,8 @@
       </div>
     </div>
 
+    <button type="button" id="orderButton">Order Now</button>
+
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -251,6 +255,13 @@
         $("#toggle").click(function() {
           $(this).toggleClass("active");
           $("#overlay").toggleClass("open");
+        });
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () =>{
+        document.querySelector("#orderButton").addEventListener("click", () => {
+          alert("order button clicked");
         });
       });
     </script>

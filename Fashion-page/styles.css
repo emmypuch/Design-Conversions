@@ -199,7 +199,7 @@ span {
   margin-bottom: 50px;
 }
 
-button {
+.btn1-collection {
   padding: 13px;
   border-radius: 10px;
   width: 340px;
@@ -211,9 +211,10 @@ button {
   outline: navajowhite;
   background: rgb(94, 63, 122);
   color: white;
+  text-align: center;
 }
 
-button:hover {
+.btn1-collection:hover {
   background: rgb(90, 52, 122);
   color: white;
 }
@@ -335,7 +336,6 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  margin-right: 50px;
 }
 
 .collection-item3-image {
@@ -360,6 +360,18 @@ footer {
   padding: 25px;
   font-family: "Niconne", cursive;
   position: initial;
+}
+
+button#orderButton {
+  padding: 10px;
+  right: -45px;
+  transform: rotate(-90deg);
+  top: 50%;
+  color: white;
+  background: rgb(94, 63, 122);
+  font-size: 18pt;
+  position: fixed;
+  cursor: pointer;
 }
 
 @media (max-width: 425px) {
@@ -671,7 +683,7 @@ img {
   margin-bottom: 50px;
 }
 
-button {
+.btn-collection {
   padding: 10px;
   border-radius: 10px;
   width: 280px;
@@ -682,9 +694,10 @@ button {
   outline: navajowhite;
   background: rgb(94, 63, 122);
   color: white;
+  text-align: center;
 }
 
-button:hover {
+.btn-collection:hover {
   background: rgb(90, 52, 122);
   color: white;
 }
@@ -791,6 +804,7 @@ input[type="submit"] {
 }
 
 
+
 /* Mobile Collection Style Section */
 .collection-section2 {
   display: grid;
@@ -820,5 +834,17 @@ footer {
   padding: 25px;
   font-family: "Niconne", cursive;
   position: initial;
+}
+
+button#orderButton {
+  padding: 10px;
+  right: -8.5%;
+  transform: rotate(-90deg);
+  top: 50%;
+  color: white;
+  background: rgb(94, 63, 122);
+  font-size: 18pt;
+  position: fixed;
+  cursor: pointer;
 }
 
