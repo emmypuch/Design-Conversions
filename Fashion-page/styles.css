@@ -912,9 +912,9 @@ button#orderButton {
   font-size: 15pt;
 }
 
-.modal-body {
+/* .modal-body {
   padding: 2px 16px;
-}
+} */
 
 input[type="SUBMIT"] {
   cursor: pointer;
