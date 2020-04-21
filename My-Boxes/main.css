@@ -21,6 +21,8 @@ ul {
   width: 750px;
   display: grid;
   margin-bottom: 1px;
+  padding: 20px;
+  grid-template-columns: 1fr 2fr 1fr;
   grid-template-areas: "image description button";
 }
 
@@ -51,27 +53,34 @@ img {
   align-self: center;
 }
 
+h5 {
+  font-size: 8pt;
+  color: orangered;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 h1 {
-  font-size: 20pt;
+  font-size: 15pt;
   color: rgb(92, 90, 90);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 p {
-  font-size: 15pt;
+  font-size: 10pt;
   color: rgb(92, 90, 90);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .button {
   grid-area: button;
-  width: 80%;
-  height: 35%;
+  width: 78%;
+  height: 30%;
   border: none;
   border-radius: 5px;
   background: orangered;
   color: white;
-  font-size: 15pt;
+  font-size: 10pt;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  align-self: center;
+  align-self: flex-end;
+  margin-bottom: 15px;
 }
