@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 25px;
+}
+
+.main {
+  background: black;
+  display: grid;
+  padding: 30px 40px;
+  height: 91vh;
+  width: 200%;
+  max-width: 850px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+}
+
+.c1 {
+  width: 102%;
+  height: 41vh;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTmJ2mMspBiyUUx0NTcw2HZxo5InCm6JYQsOOQeYx1VMooHsOn9&usqp=CAU");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: contain;
+  filter: grayscale(100%);
+  transition: 0.8s ease-out;
+  transition-delay: 1s;
+  transition-duration: 5s;
+}
+
+.c1:hover {
+  filter: contrast(90%);
+}
+
+.c2 {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTmJ2mMspBiyUUx0NTcw2HZxo5InCm6JYQsOOQeYx1VMooHsOn9&usqp=CAU");
+  width: 105%;
+  height: 41vh;
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: contain;
+  filter: grayscale(100%);
+}
+
+.c2:hover {
+  transition: 0.5s ease;
+  filter: contrast(90%);
+}
+
+.c3 {
+  width: 101%;
+  height: 41vh;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTmJ2mMspBiyUUx0NTcw2HZxo5InCm6JYQsOOQeYx1VMooHsOn9&usqp=CAU");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: contain;
+  filter: grayscale(100%);
+}
+
+.c3:hover {
+  transition: 0.5s ease;
+  filter: contrast(90%);
+}
+
+.c4 {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTmJ2mMspBiyUUx0NTcw2HZxo5InCm6JYQsOOQeYx1VMooHsOn9&usqp=CAU");
+  width: 100%;
+  height: 44vh;
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: contain;
+  filter: grayscale(100%);
+}
+
+.c4:hover {
+  transition: 0.5s ease;
+  filter: contrast(90%);
+}
+
+.c5 {
+  width: 100%;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTmJ2mMspBiyUUx0NTcw2HZxo5InCm6JYQsOOQeYx1VMooHsOn9&usqp=CAU");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: contain;
+  filter: grayscale(100%);
+}
+
+.c5:hover {
+  transition: 0.5s ease;
+  filter: contrast(90%);
+}
+
+.c6 {
+  width: 100%;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTmJ2mMspBiyUUx0NTcw2HZxo5InCm6JYQsOOQeYx1VMooHsOn9&usqp=CAU");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: contain;
+  filter: grayscale(100%);
+}
+
+.c6:hover {
+  transition: 0.5s ease;
+  filter: contrast(90%);
+}
