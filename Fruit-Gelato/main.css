@@ -17,7 +17,7 @@ body {
 
 img {
   width: 72%;
-  height: 448px;
+  height: 455px;
   border-radius: 2px;
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2); */
   box-shadow: 7px 7px 7px #666666;
@@ -32,13 +32,13 @@ img {
 
 h1 {
   font-family: "Sacramento", cursive;
-  font-size: 2.7em;
+  font-size: 2.8em;
   color: #fff;
 }
 
 p {
   color: #7a7887;
-  font-size: 1em;
+  font-size: 1.2em;
   font-family: "Patrick Hand", cursive;
 }
 
@@ -48,7 +48,7 @@ p {
   color: #7a7887;
   cursor: pointer;
   width: 18%;
-  font-size: 0.9em;
+  font-size: 1.1em;
   font-family: "Patrick Hand", cursive;
   border: 1px solid #7a7887;
   background: #212227;
@@ -67,7 +67,7 @@ p {
   color: #7a7887;
   width: 18%;
   cursor: pointer;
-  font-size: 0.9em;
+  font-size: 1.1em;
   font-family: "Patrick Hand", cursive;
   border: 1px solid #7a7887;
   background: #212227;
@@ -86,7 +86,7 @@ p {
   color: #7a7887;
   width: 18%;
   cursor: pointer;
-  font-size: 0.9em;
+  font-size: 1.1em;
   font-family: "Patrick Hand", cursive;
   border: 1px solid #7a7887;
   background: #212227;
@@ -105,7 +105,7 @@ p {
   color: #7a7887;
   width: 18%;
   cursor: pointer;
-  font-size: 0.9em;
+  font-size: 1.1em;
   font-family: "Patrick Hand", cursive;
   border: 1px solid #7a7887;
   background: #212227;
@@ -121,7 +121,7 @@ p {
 .button5 {
   color: #fff;
   cursor: pointer;
-  font-size: 0.9em;
+  font-size: 1.1em;
   font-family: "Patrick Hand", cursive;
   border: none;
   width: 18%;
