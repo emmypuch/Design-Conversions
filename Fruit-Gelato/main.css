@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+img {
+  width: 72%;
+  height: 450px;
+  border-radius: 2px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2); */
+  box-shadow: 7px 7px 7px #666666;
+}
+
+.overlay-center {
+  position: absolute;
+  top: 46%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 2.7em;
+  color: #fff;
+}
+
+p {
+  color: #7a7887;
+  font-size: 1em;
+  font-family: "Patrick Hand", cursive;
+}
+
+.button1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #7a7887;
+  cursor: pointer;
+  width: 18%;
+  font-size: 0.9em;
+  font-family: "Patrick Hand", cursive;
+  border: 1px solid #7a7887;
+  background: #212227;
+  border-radius: 15px;
+  padding: 12px 14px;
+}
+
+.button1:focus {
+  outline: 0;
+  box-shadow: 0 0 10px #7a7887;
+}
+
+.button2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #7a7887;
+  width: 18%;
+  cursor: pointer;
+  font-size: 0.9em;
+  font-family: "Patrick Hand", cursive;
+  border: 1px solid #7a7887;
+  background: #212227;
+  border-radius: 15px;
+  padding: 12px 14px;
+}
+
+.button2:focus {
+  outline: 0;
+  box-shadow: 0 0 10px #7a7887;
+}
+
+.button3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #7a7887;
+  width: 18%;
+  cursor: pointer;
+  font-size: 0.9em;
+  font-family: "Patrick Hand", cursive;
+  border: 1px solid #7a7887;
+  background: #212227;
+  border-radius: 15px;
+  padding: 12px 14px;
+}
+
+.button3:focus {
+  outline: 0;
+  box-shadow: 0 0 10px #7a7887;
+}
+
+.button4 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #7a7887;
+  width: 18%;
+  cursor: pointer;
+  font-size: 0.9em;
+  font-family: "Patrick Hand", cursive;
+  border: 1px solid #7a7887;
+  background: #212227;
+  border-radius: 15px;
+  padding: 12px 14px;
+}
+
+.button4:focus {
+  outline: 0;
+  box-shadow: 0 0 10px #7a7887;
+}
+
+.button5 {
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.9em;
+  font-family: "Patrick Hand", cursive;
+  border: none;
+  width: 18%;
+  background: #a70000;
+  border-radius: 15px;
+  padding: 12px 14px;
+}
+
+.button5:focus {
+  outline: 0;
+  box-shadow: 0 0 10px #a70000;
+}
