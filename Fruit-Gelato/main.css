@@ -17,7 +17,7 @@ body {
 
 img {
   width: 72%;
-  height: 450px;
+  height: 448px;
   border-radius: 2px;
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2); */
   box-shadow: 7px 7px 7px #666666;
@@ -25,7 +25,7 @@ img {
 
 .overlay-center {
   position: absolute;
-  top: 46%;
+  top: 38%;
   left: 65%;
   transform: translate(-50%, -50%);
 }
@@ -43,8 +43,8 @@ p {
 }
 
 .button1 {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 13px;
+  margin-bottom: 13px;
   color: #7a7887;
   cursor: pointer;
   width: 18%;
