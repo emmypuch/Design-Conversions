@@ -1,9 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
   margin: 0;
   padding: 0;
 }
 
-#btns {
+.mytext {
+  display: grid;
+  justify-content: center;
+  background: rgba(158, 97, 214, 0.336);
+  border-radius: 2px;
+  width: 50%;
+  height: 300px;
+  margin-top: 12%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+  color: rgb(110, 23, 192);
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 1px;
   text-align: center;
-  font-size: 40px;
+}
+
+img {
+  width: 120px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
 }

@@ -1,1 +1,2 @@
-alert("file linked");
+const myHeading = document.querySelector("h1");
+myHeading.textContent = "Hey There!";
