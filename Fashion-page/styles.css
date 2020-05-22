@@ -219,6 +219,12 @@ span {
   color: white;
 }
 
+.btn1-collection:focus {
+  outline: 0;
+  box-shadow: 0 0 10px rgb(111, 78, 139);
+  border-color: rgb(111, 78, 139);
+}
+
 .contact {
   display: flex;
   justify-content: center;
@@ -298,14 +304,28 @@ input[type="password"] {
   color: rgb(94, 63, 122);
   width: 300px;
   height: 30px;
+  border: none;
+}
+
+input[type="password"]:focus {
+  outline: 0;
+  box-shadow: 0 0 10px rgb(71, 38, 99);
+  border-color: rgb(71, 38, 99);
 }
 
 input[type="email"] {
   font-size: 14pt;
   width: 300px;
+  border: none;
   height: 30px;
   font-family: "Niconne", cursive;
   color: rgb(94, 63, 122);
+}
+
+input[type="email"]:focus {
+  outline: 0;
+  box-shadow: 0 0 10px rgb(71, 38, 99);
+  border-color: rgb(71, 38, 99);
 }
 
 input[type="submit"] {
@@ -318,6 +338,12 @@ input[type="submit"] {
   color: white;
   width: 95px;
   font-family: "Niconne", cursive;
+}
+
+input[type="submit"]:focus {
+  outline: 0;
+  box-shadow: 0 0 10px rgb(111, 78, 139);
+  border-color: rgb(111, 78, 139);
 }
 
 footer {
@@ -383,6 +409,12 @@ button#orderButton {
   cursor: pointer;
   border: none;
   border-radius: 2px;
+}
+
+button#orderButton:focus {
+  outline: 0;
+  box-shadow: 0 0 10px rgb(111, 78, 139);
+  border-color: rgb(111, 78, 139);
 }
 
 .modal {
@@ -456,6 +488,14 @@ input[type="SUBMIT"] {
   width: 85px;
   text-align: center;
 }
+
+input[type="SUBMIT"]:focus {
+  outline: 0;
+  box-shadow: 0 0 10px rgb(111, 78, 139);
+  border-color: rgb(111, 78, 139);
+}
+
+
 
 @media (max-width: 425px) {
   * {
@@ -785,6 +825,12 @@ img {
   color: white;
 }
 
+.btn-collection:focus {
+  outline: 0;
+  box-shadow: 0 0 10px rgb(111, 78, 139);
+  border-color: rgb(111, 78, 139);
+}
+
 .contact {
   display: flex;
   justify-content: center;
@@ -863,15 +909,29 @@ input[type="password"] {
   font-family: "Niconne", cursive;
   color: rgb(94, 63, 122);
   width: 300px;
+  border: none;
   height: 30px;
+}
+
+input[type="password"]:focus {
+  outline: 0;
+  box-shadow: 0 0 10px rgb(71, 38, 99);
+  border-color: rgb(71, 38, 99);
 }
 
 input[type="email"] {
   font-size: 14pt;
   width: 300px;
   height: 30px;
+  border: none;
   font-family: "Niconne", cursive;
   color: rgb(94, 63, 122);
+}
+
+input[type="email"]:focus {
+  outline: 0;
+  box-shadow: 0 0 10px rgb(71, 38, 99);
+  border-color: rgb(71, 38, 99);
 }
 
 input[type="submit"] {
@@ -886,6 +946,12 @@ input[type="submit"] {
   font-family: "Niconne", cursive;
 }
 
+input[type="submit"]:focus {
+  outline: 0;
+  box-shadow: 0 0 10px rgb(111, 78, 139);
+  border-color: rgb(111, 78, 139);
+}
+
 
 /* Mobile Collection Section */
 @media (max-width: 375px) {
@@ -893,7 +959,7 @@ input[type="submit"] {
     border: 1px solid #BFBFBF;
     border-radius: 3px;
     margin-bottom: 30px;
-    height: 490px;
+    height: 495px;
     box-shadow: 0 2px 10px 0px #aaaaaa;
   }
 }
@@ -943,6 +1009,12 @@ button#orderButton {
   position: fixed;
   cursor: pointer;
   border-radius: 2px;
+}
+
+button#orderButton:focus {
+  outline: 0;
+  box-shadow: 0 0 10px rgb(111, 78, 139);
+  border-color: rgb(111, 78, 139);
 }
 
 .modal {
@@ -1015,6 +1087,12 @@ input[type="SUBMIT"] {
   color: white;
   width: 85px;
   text-align: center;
+}
+
+input[type="SUBMIT"]:focus {
+  outline: 0;
+  box-shadow: 0 0 10px rgb(71, 38, 99);
+  border-color: rgb(71, 38, 99);
 }
 
 
