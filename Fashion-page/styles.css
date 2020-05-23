@@ -52,24 +52,40 @@ ul li {
   color: white;
 }
 
-.overlay-img {
-  width: 100%;
-  height: 400px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://res.cloudinary.com/karenify/image/upload/q_70/v1584994447/samples/My-images/hivj7pksywsqu7xdneve.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
+.carousel-item img {
+  width: 110%;
+  height: 550px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-.overlay-img a {
+.carousel-item::after {
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 30;
+  content: "";
+  position: absolute;
+  top: 28.5px;
+  width: 100%;
+  height: 90.4%;
+}
+
+.carousel-item .carouselInnerText {
+  font-size: 5rem;
+  position: absolute;
+  top: 15rem;
   text-decoration: none;
-  font-size: 75pt;
-  color: rgb(221, 191, 250);
+  left: 31rem;
   font-family: "Niconne", cursive;
+  color: rgb(246, 236, 255);
+}
+
+.carousel-control-prev,
+.carousel-control-next,
+.carousel-item .carouselInnerText {
+  z-index: 31;
 }
 
 .aboutus {
@@ -104,6 +120,7 @@ ul li {
   justify-content: space-between;
   flex-direction: column;
   font-size: 22pt;
+  margin-top: 15px;
   font-family: "Niconne", cursive;
   background: -webkit-linear-gradient(rgb(80, 47, 109), #333);
   -webkit-background-clip: text;
@@ -114,7 +131,7 @@ ul li {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 45px;
 }
 
 .description h2 {
@@ -146,6 +163,7 @@ ul li {
 .collection-item {
   display: grid;
   padding-left: 10%;
+  margin-top: 25px;
   grid-template-columns: 1fr 3fr;
   grid-template-areas: "collection-item-image collection-item-paragraph";
 }
@@ -169,6 +187,7 @@ ul li {
 
 .collection-item-paragraph h4 {
   font-size: 25pt;
+  margin-top: 20px;
   color: rgb(85, 47, 119);
   font-family: "Niconne", cursive;
 }
@@ -229,7 +248,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 55px;
 }
 
 .contact h3 {
@@ -249,6 +268,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 15px;
 }
 
 .social {
@@ -409,6 +429,7 @@ button#orderButton {
   cursor: pointer;
   border: none;
   border-radius: 2px;
+  z-index: 35;
 }
 
 button#orderButton:focus {
@@ -426,6 +447,7 @@ button#orderButton:focus {
   top: 0;
   width: 100%;
   height: 100%;
+  z-index: 34;
   overflow: auto;
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0,0.4);
@@ -522,22 +544,40 @@ input[type="SUBMIT"]:focus {
     margin: 0;
   }
 
- .overlay-img2 {
-  width: 100%;
-  height: 300px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://res.cloudinary.com/karenify/image/upload/q_70/v1584994447/samples/My-images/hivj7pksywsqu7xdneve.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
+.carousel-item img {
+  width: 110%;
+  height: 310px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-.overlay-img2 a {
+.carousel-item::after {
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 30;
+  content: "";
+  position: absolute;
+  top: 28px;
+  width: 100%;
+  height: 84%;
+}
+
+.carousel-item .carouselInnerText {
+  font-size: 3rem;
+  position: absolute;
+  top: 9rem;
   text-decoration: none;
-  font-size: 28pt;
-  color: rgb(221, 191, 250);
+  left: 6rem;
+  font-family: "Niconne", cursive;
+  color: rgb(246, 236, 255);
+}
+
+.carousel-control-prev,
+.carousel-control-next,
+.carousel-item .carouselInnerText {
+  z-index: 31;
 }
 
 .aboutus {
@@ -571,7 +611,8 @@ input[type="SUBMIT"]:focus {
   justify-content: space-between;
   flex-direction: column;
   font-size: 18pt;
-  padding-left: 14px;
+  padding-left: 15px;
+  margin-top: 25px;
   background: -webkit-linear-gradient(rgb(80, 47, 109), #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -635,6 +676,7 @@ input[type="SUBMIT"]:focus {
   width: 100%;
   height: 0%;
   opacity: 0;
+  z-index: 36;
   visibility: hidden;
   transition: opacity 0.35s, visibility 0.35s, height 0.35s;
   overflow: hidden;
@@ -962,6 +1004,16 @@ input[type="submit"]:focus {
     height: 495px;
     box-shadow: 0 2px 10px 0px #aaaaaa;
   }
+
+  .carousel-item .carouselInnerText {
+  font-size: 3rem;
+  position: absolute;
+  top: 9rem;
+  text-decoration: none;
+  left: 4rem;
+  font-family: "Niconne", cursive;
+  color: rgb(246, 236, 255);
+}
 }
 
 
@@ -1025,6 +1077,7 @@ button#orderButton:focus {
   left: 0;
   top: 0;
   width: 100%;
+  z-index: 36;
   height: 100%;
   overflow: auto;
   background-color: rgb(0,0,0);
