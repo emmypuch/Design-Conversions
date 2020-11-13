@@ -16,10 +16,16 @@ body {
 }
 
 img {
-  width: 72%;
+  width: 70%;
   height: 470px;
   border-radius: 2px;
   box-shadow: 7px 7px 7px #666666;
+}
+
+@media (max-width: 768px) {
+  body {
+    display: none;
+  }
 }
 
 .overlay-center {
