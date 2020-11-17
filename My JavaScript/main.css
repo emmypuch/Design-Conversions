@@ -1,37 +1,86 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body {
+  background-image: linear-gradient(120deg, #f6d365, #fda085);
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  font-size: 1rem;
+}
+
+header,
+form {
   display: flex;
   justify-content: center;
-  align-content: center;
-  margin: 0;
-  padding: 0;
+  align-items: center;
+  min-height: 20vh;
 }
 
-.mytext {
-  display: grid;
+form input,
+form button {
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background: #fff;
+}
+
+form button {
+  background: #fff;
+  color: #d88771;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  background: #d88771;
+  color: #fff;
+}
+
+.todo-container {
+  display: flex;
   justify-content: center;
-  background: rgba(158, 97, 214, 0.336);
-  border-radius: 2px;
-  width: 50%;
-  height: 300px;
-  margin-top: 12%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  align-items: center;
 }
 
-h1 {
-  color: rgb(110, 23, 192);
-  font-size: 30px;
-  font-family: "Times New Roman", Times, serif;
-  letter-spacing: 1px;
-  text-align: center;
+.todo-list {
+  min-width: 30%;
+  list-style: none;
 }
 
-img {
-  width: 120px;
-  height: 100px;
-  display: block;
-  margin: 0 auto;
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem;
+  background: #fff;
+  color: #000;
+  font-size: 1.5rem;
+}
+
+.todo li {
+  flex: 1;
+}
+
+.trash-btn,
+complete-btn {
+  background: #ff6f47;
+  color: #fff;
+  cursor: pointer;
+  padding: 1rem;
+  border: none;
+  font-size: 1rem;
+}
+
+.complete-btn {
+  background: rgb(73, 204, 73);
+}
+
+.todo-list {
+  padding: 0rem 0.5rem;
 }
