@@ -1,13 +1,10 @@
 * {
   box-sizing: border-box;
-}
-
-body {
   margin: 0;
   padding: 0;
 }
 
-.image {
+div.image {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -15,41 +12,34 @@ body {
   margin-top: 5%;
 }
 
-img {
-  width: 70%;
-  height: 470px;
+div.image img {
+  width: 65%;
+  height: 465px;
   border-radius: 2px;
   box-shadow: 7px 7px 7px #666666;
 }
 
-@media (max-width: 768px) {
-  body {
-    display: none;
-  }
-}
-
 .overlay-center {
   position: absolute;
-  top: 38%;
+  top: 44%;
   left: 65%;
   transform: translate(-50%, -50%);
 }
 
-h1 {
+div.overlay-center h1 {
   font-family: "Sacramento", cursive;
   font-size: 2.8em;
   color: #fff;
 }
 
-p {
+div.overlay-center p {
   color: #7a7887;
   font-size: 1.2em;
   font-family: "Patrick Hand", cursive;
 }
 
 .button1 {
-  margin-top: 13px;
-  margin-bottom: 13px;
+  margin-top: 25px;
   color: #7a7887;
   cursor: pointer;
   width: 18%;
@@ -66,61 +56,8 @@ p {
   box-shadow: 0 0 10px #7a7887;
 }
 
-.button2 {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  color: #7a7887;
-  width: 18%;
-  cursor: pointer;
-  font-size: 1.1em;
-  font-family: "Patrick Hand", cursive;
-  border: 1px solid #7a7887;
-  background: #212227;
-  border-radius: 15px;
-  padding: 12px 14px;
-}
-
-.button2:focus {
-  outline: 0;
-  box-shadow: 0 0 10px #7a7887;
-}
-
-.button3 {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  color: #7a7887;
-  width: 18%;
-  cursor: pointer;
-  font-size: 1.1em;
-  font-family: "Patrick Hand", cursive;
-  border: 1px solid #7a7887;
-  background: #212227;
-  border-radius: 15px;
-  padding: 12px 14px;
-}
-
-.button3:focus {
-  outline: 0;
-  box-shadow: 0 0 10px #7a7887;
-}
-
-.button4 {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  color: #7a7887;
-  width: 18%;
-  cursor: pointer;
-  font-size: 1.1em;
-  font-family: "Patrick Hand", cursive;
-  border: 1px solid #7a7887;
-  background: #212227;
-  border-radius: 15px;
-  padding: 12px 14px;
-}
-
-.button4:focus {
-  outline: 0;
-  box-shadow: 0 0 10px #7a7887;
+p.last-par {
+  margin-top: 20px;
 }
 
 .button5 {
@@ -133,9 +70,16 @@ p {
   background: #a70000;
   border-radius: 15px;
   padding: 12px 14px;
+  margin-top: 25px;
 }
 
 .button5:focus {
   outline: 0;
   box-shadow: 0 0 10px #a70000;
+}
+
+@media (max-width: 768px) {
+  body {
+    display: none;
+  }
 }
